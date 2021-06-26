@@ -1,0 +1,24 @@
+#ptag {
+    color: green;
+}
+
+.country {
+    color: yellow;
+}
+
+.thanks {
+    color: orangered;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+#controls {
+    color: blue;
+}

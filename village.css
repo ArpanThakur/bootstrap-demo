@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+}
+
+.llh {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 42%;
+}
+
+.llh:hover {
+    background-color: cornflowerblue;
+    padding: 0px 20px;
+}
+
+.llh:hover h1 {
+    color: white;
+    background-color: blue;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#logohead {
+    color: blue;
+    padding-left: 10px;
+    width: 150px;
+}
+
+header {
+    background-color: gray;
+    margin-top: 0px;
+}
+
+.house {
+    overflow: hidden;
+    width: 85%;
+}
+
+#head h1 {
+    color: black;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+
+#head p {
+    color: black;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+
+nav {
+    width: 70%;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+header li {
+    padding: 10px 10px;
+    background-color: gray;
+    float: left;
+}
+
+.box {
+    float: left;
+    padding: 20px 20px;
+    margin: 0px;
+}
+
+.box h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+.box p {
+    color: black;
+    text-align: centre;
+    font-style: italic;
+}
+
+.ganesha {
+    color: blue;
+}
+
+#neck {
+    background-color: lightblue;
+}
+
+footer p {
+    color: blue;
+    text-align: center;
+}
