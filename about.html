@@ -1,42 +1,51 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="website.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>learning bootstrap</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/help.html">whats new?</a></li>
+                            <li><a class="dropdown-item" href="/topics.html">Topics</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/feedback.html">What is your feedback for us?</a></li>
+                        </ul>
+                    </li>
 
-                <h1>web design</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class><a href="website.html">home</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="services.html">services</a></li>
                 </ul>
-            </nav>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-
-    </header>
-    <h1 style="color:white;background-color: blue;">ABOUT US</h1>
-    <p style="color:green">• Website This is the place where you can directly link your website, which is still in the bio. Here, you can actively involve your users since they can visit your company website through your Instagram bio.<br> • Email Whenever you add your email
-        address on your bio, an Email button is generated on your profile. This information appears below all the other information. When a user clicks on the Email button, the Instagram app prompts them to open their default mail app on their phone.
-        <br>• Directions Entering the full address of your business will help customers locate you easily. This applies if your business has a permanent location.</p>
-
-
-</body>
-
-</html>
+    </nav>
